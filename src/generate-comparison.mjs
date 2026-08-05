@@ -57,7 +57,7 @@ async function main() {
   console.table([jsonMetrics, toonMetrics]);
   console.log(`Character reduction: ${characterDifference.toLocaleString("en-US")} (${reduction(jsonMetrics.Characters, toonMetrics.Characters).toFixed(1)}%)`);
   console.log(`UTF-8 byte reduction: ${byteDifference.toLocaleString("en-US")} (${reduction(jsonMetrics["UTF-8 bytes"], toonMetrics["UTF-8 bytes"]).toFixed(1)}%)`);
-  console.log("Note: UTF-8 bytes and characters are not LLM token counts. Tokenization varies by model.\n");
+  console.log("Note: This is a structural comparison, not a token benchmark. Bytes and characters are not LLM tokens; actual token changes depend on the model and tokenizer.\n");
   console.log("Generated files:");
   console.log(`  JSON  ${jsonPath}`);
   console.log(`  TOON  ${toonPath}\n`);

@@ -1,16 +1,59 @@
 # JSON vs TOON: Supply Chain Demo
 
-A small Node.js demo that serializes the same fictional warehouse outbound wave as readable JSON and TOON, then compares their character and UTF-8 byte sizes.
+A small Node.js experiment that serializes the same fictional warehouse outbound wave as readable JSON and TOON, then compares the character and UTF-8 byte sizes of those two specific outputs.
 
-## Why compare them?
+## What this demonstrates
 
-JSON is the source representation here. It remains the broadly supported choice for APIs, schemas, contracts, integrations, validation, tooling, and general interoperability.
+The demo shows how one uniform collection of warehouse order records is represented as formatted JSON and as TOON. It reports the structural size of each generated file in characters and UTF-8 bytes.
 
-[TOON (Token-Oriented Object Notation)](https://github.com/toon-format/toon) is used as a compact, human-readable translation of the same data. Its tabular form is especially effective for the uniform order records in this example and may reduce structural overhead at the application-to-LLM boundary.
+The measured difference applies only to this dataset, these serialization settings, and the package version recorded in `package-lock.json`. Different data shapes or formatting choices can produce different results.
 
-TOON is not automatically a replacement for JSON. Choose a format for the specific system boundary and verify that its consumers support it. The demo reports characters and UTF-8 bytes only: **byte reduction is not token reduction**. Actual LLM token counts vary by model and tokenizer.
+## Architectural position
+
+JSON remains the de facto interoperability format across REST and GraphQL payloads, APIs, OpenAPI, JSON Schema, integration messaging, contracts, configuration, persistence, and general-purpose tooling. Existing WMS, ERP, TMS, event-driven platforms, and other legacy or current systems already rely on those contracts and integrations.
+
+[TOON (Token-Oriented Object Notation)](https://github.com/toon-format/toon) is evaluated here as **a possible representation for structured data at the application-to-LLM boundary**. Uniform records can use TOON's tabular form, which may reduce repeated structural syntax for some datasets. This is context-dependent and should be measured with the actual data, model, and tokenizer.
+
+One possible architecture is:
+
+```text
+Application
+    │
+   JSON
+    │
+AI Gateway
+    │
+JSON → TOON
+    │
+   LLM
+    │
+TOON → JSON
+    │
+Application
+```
+
+This diagram is an architectural discussion, not an industry recommendation. It keeps JSON at established system boundaries and considers TOON only as an optional translation inside an AI gateway or similar adapter.
+
+## What this does not demonstrate
+
+This repository does not demonstrate or recommend:
+
+- replacing JSON in APIs, REST or GraphQL payloads, contracts, schemas, persistence, or configuration;
+- replacing Kafka, RabbitMQ, EventBridge, or other integration and event-messaging formats;
+- that TOON is always smaller, faster, or better than JSON;
+- improved LLM accuracy, latency, throughput, or cost;
+- a production AI gateway or a complete TOON round trip; or
+- a model-specific token reduction.
+
+TOON is not presented as a general replacement for JSON. It is one possible optimization to evaluate at a specific boundary.
+
+## Bytes, characters, and tokens
+
+The demo compares characters and UTF-8 bytes, not LLM tokens. Byte and character reductions are not equivalent to token savings. Tokenizer implementations differ, and any actual token change depends on the selected model, tokenizer, data shape, and serialization options. The comparison shown here is structural rather than tokenizer-specific; evaluate token counts separately with the exact production tokenizer before drawing conclusions.
 
 All warehouse, customer, and order details are fictional.
+
+For a practical walkthrough and evaluation checklist, see [How to Use This Demo](HOW_TO_USE.md).
 
 ## Structure at a glance
 
@@ -24,6 +67,8 @@ All warehouse, customer, and order details are fictional.
     <td><img src="assets/toon-structure.png" alt="TOON structure explanation"></td>
   </tr>
 </table>
+
+These illustrations explain the formats' visible structure; they are not performance benchmarks or architectural recommendations.
 
 ## Run the demo
 
@@ -39,7 +84,7 @@ The command regenerates:
 - `output/warehouse-orders.json`
 - `output/warehouse-orders.toon`
 
-It also prints a compact comparison table, absolute differences, percentage reductions, and the exact output paths.
+It also prints a comparison table, absolute character and byte differences, percentage reductions for this generated example, and the exact output paths. The terminal note identifies the measurements as distinct from LLM token counts.
 
 ## Prepare the VS Code screenshot
 
@@ -66,6 +111,7 @@ json-vs-toon-supply-chain-demo/
 ├── package.json
 ├── package-lock.json
 ├── README.md
+├── HOW_TO_USE.md
 └── .gitignore
 ```
 
