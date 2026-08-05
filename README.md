@@ -12,6 +12,19 @@ TOON is not automatically a replacement for JSON. Choose a format for the specif
 
 All warehouse, customer, and order details are fictional.
 
+## Structure at a glance
+
+<table>
+  <tr>
+    <th width="50%">JSON</th>
+    <th width="50%">TOON</th>
+  </tr>
+  <tr>
+    <td><img src="assets/json-structure.png" alt="JSON structure explanation"></td>
+    <td><img src="assets/toon-structure.png" alt="TOON structure explanation"></td>
+  </tr>
+</table>
+
 ## Run the demo
 
 Requirements: Node.js 20 or newer and npm.
@@ -44,6 +57,9 @@ For a readable capture, use a moderate editor zoom and make the two editor panes
 
 ```text
 json-vs-toon-supply-chain-demo/
+├── assets/
+│   ├── json-structure.png
+│   └── toon-structure.png
 ├── src/generate-comparison.mjs
 ├── output/warehouse-orders.json
 ├── output/warehouse-orders.toon
