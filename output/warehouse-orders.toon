@@ -1,0 +1,12 @@
+warehouseId: WH-DAL-01
+waveId: WAVE-2026-0805-A
+generatedAt: "2026-08-05T14:30:00Z"
+outboundOrders[8]{orderId,customer,priority,status,units,destination,assignedZone}:
+  ORD-10481,Northstar Retail,High,Picking,42,"Austin, TX",A-01
+  ORD-10482,Blue Ridge Market,Standard,Allocated,18,"Denver, CO",B-03
+  ORD-10483,Harbor Home Goods,High,Packed,67,"Tampa, FL",A-02
+  ORD-10484,Cedar Supply Co,Standard,Picking,24,"Tulsa, OK",C-01
+  ORD-10485,Summit Outfitters,Expedite,Quality Check,12,"Boise, ID",A-01
+  ORD-10486,Prairie Office,Standard,Allocated,35,"Omaha, NE",B-02
+  ORD-10487,Metro Kitchen,High,Picking,51,"Phoenix, AZ",C-02
+  ORD-10488,Lakeside Pharmacy,Expedite,Packed,9,"Madison, WI",A-03

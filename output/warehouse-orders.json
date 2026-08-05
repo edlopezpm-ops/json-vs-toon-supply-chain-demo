@@ -1,0 +1,79 @@
+{
+  "warehouseId": "WH-DAL-01",
+  "waveId": "WAVE-2026-0805-A",
+  "generatedAt": "2026-08-05T14:30:00Z",
+  "outboundOrders": [
+    {
+      "orderId": "ORD-10481",
+      "customer": "Northstar Retail",
+      "priority": "High",
+      "status": "Picking",
+      "units": 42,
+      "destination": "Austin, TX",
+      "assignedZone": "A-01"
+    },
+    {
+      "orderId": "ORD-10482",
+      "customer": "Blue Ridge Market",
+      "priority": "Standard",
+      "status": "Allocated",
+      "units": 18,
+      "destination": "Denver, CO",
+      "assignedZone": "B-03"
+    },
+    {
+      "orderId": "ORD-10483",
+      "customer": "Harbor Home Goods",
+      "priority": "High",
+      "status": "Packed",
+      "units": 67,
+      "destination": "Tampa, FL",
+      "assignedZone": "A-02"
+    },
+    {
+      "orderId": "ORD-10484",
+      "customer": "Cedar Supply Co",
+      "priority": "Standard",
+      "status": "Picking",
+      "units": 24,
+      "destination": "Tulsa, OK",
+      "assignedZone": "C-01"
+    },
+    {
+      "orderId": "ORD-10485",
+      "customer": "Summit Outfitters",
+      "priority": "Expedite",
+      "status": "Quality Check",
+      "units": 12,
+      "destination": "Boise, ID",
+      "assignedZone": "A-01"
+    },
+    {
+      "orderId": "ORD-10486",
+      "customer": "Prairie Office",
+      "priority": "Standard",
+      "status": "Allocated",
+      "units": 35,
+      "destination": "Omaha, NE",
+      "assignedZone": "B-02"
+    },
+    {
+      "orderId": "ORD-10487",
+      "customer": "Metro Kitchen",
+      "priority": "High",
+      "status": "Picking",
+      "units": 51,
+      "destination": "Phoenix, AZ",
+      "assignedZone": "C-02"
+    },
+    {
+      "orderId": "ORD-10488",
+      "customer": "Lakeside Pharmacy",
+      "priority": "Expedite",
+      "status": "Packed",
+      "units": 9,
+      "destination": "Madison, WI",
+      "assignedZone": "A-03"
+    }
+  ]
+}

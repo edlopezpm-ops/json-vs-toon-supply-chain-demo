@@ -1,0 +1,23 @@
+{
+  "name": "json-vs-toon-supply-chain-demo",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A compact comparison of JSON and TOON using warehouse outbound orders.",
+  "type": "module",
+  "scripts": {
+    "demo": "node src/generate-comparison.mjs"
+  },
+  "keywords": [
+    "json",
+    "toon",
+    "llm",
+    "supply-chain"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@toon-format/toon": "4.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
