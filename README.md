@@ -118,3 +118,9 @@ json-vs-toon-supply-chain-demo/
 ## License
 
 MIT
+
+---
+
+Built with the **AI Engineering Knowledge Repo (AEKR)** workflow.
+
+![Build with AEKR](assets/aekr-banner.png)
