@@ -2,6 +2,10 @@
 
 A small Node.js experiment that serializes the same fictional warehouse outbound wave as readable JSON and TOON, then compares the character and UTF-8 byte sizes of those two specific outputs.
 
+## Status
+
+This is a deterministic educational demo, not a production integration or a published library. The package metadata remains publishable for compatibility with its current baseline; no npm publication workflow is configured.
+
 ## What this demonstrates
 
 The demo shows how one uniform collection of warehouse order records is represented as formatted JSON and as TOON. It reports the structural size of each generated file in characters and UTF-8 bytes.
@@ -75,7 +79,7 @@ These illustrations explain the formats' visible structure; they are not perform
 Requirements: Node.js 20 or newer and npm.
 
 ```bash
-npm install
+npm ci
 npm run demo
 ```
 
@@ -85,6 +89,15 @@ The command regenerates:
 - `output/warehouse-orders.toon`
 
 It also prints a comparison table, absolute character and byte differences, percentage reductions for this generated example, and the exact output paths. The terminal note identifies the measurements as distinct from LLM token counts.
+
+## Validate the repository
+
+```bash
+npm ci
+npm test
+```
+
+`npm test` regenerates both committed output files and fails if either generated artifact differs from the checked-in baseline.
 
 ## Prepare the VS Code screenshot
 
@@ -118,6 +131,10 @@ json-vs-toon-supply-chain-demo/
 ## License
 
 MIT
+
+## Governance
+
+Changes are scoped, validated, and reviewed through the AEKR engineering workflow. Contributions should use a pull request and must keep `npm test` passing; generated output changes must be intentional and reviewed with their source change. The PR author and reviewer are distinct technical actors under one HOC authority; this separation is an operational control, not an independent audit.
 
 ---
 
