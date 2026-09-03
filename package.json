@@ -5,7 +5,9 @@
   "description": "A structural JSON and TOON serialization comparison using fictional warehouse orders.",
   "type": "module",
   "scripts": {
-    "demo": "node src/generate-comparison.mjs"
+    "demo": "node src/generate-comparison.mjs",
+    "verify:generated": "npm run demo && git diff --exit-code -- output/warehouse-orders.json output/warehouse-orders.toon",
+    "test": "npm run verify:generated"
   },
   "keywords": [
     "json",
