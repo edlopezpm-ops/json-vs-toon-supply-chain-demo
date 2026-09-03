@@ -138,6 +138,6 @@ Changes are scoped, validated, and reviewed through the AEKR engineering workflo
 
 ---
 
-Built with the **AI Engineering Knowledge Repo (AEKR)** workflow.
+Built with the **[AI Engineering Knowledge Repo (AEKR)](https://aekr.io)** workflow.
 
-![Build with AEKR](assets/aekr-banner.png)
+[![Build with AEKR](assets/aekr-banner.png)](https://aekr.io)
