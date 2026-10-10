@@ -24,3 +24,11 @@ The two artifact paths are `output/warehouse-orders.json` and `output/warehouse-
 Character counts use Unicode code points and byte counts use UTF-8. Neither proves model token usage, cost savings, round-trip decoding, or model accuracy. Keep the [walkthrough](../HOW_TO_USE.md) and result descriptions aligned with those limits.
 
 See [change and recovery guidance](change-recovery.md) before merging a correction.
+
+## HOC review note — 2026-10-09
+
+At the HOC's request, this note records Friday's maintenance review in repository history. The date uses America/New_York.
+
+Automated baseline validation passed at [`2cd09c412e5a`](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/commit/2cd09c412e5ab0edde273ef8c91cb7986d0c1611). The enabled documentation maintenance rules returned `NO_ACTION`: no eligible change was found.
+
+Regeneration matched the committed JSON and TOON outputs; this establishes reproducibility, not model-token savings or model accuracy.
