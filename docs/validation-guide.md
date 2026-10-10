@@ -45,5 +45,6 @@ Regeneration matched the committed JSON and TOON outputs; this establishes repro
 - 05. 🏭 These warehouse orders remain fictional; the snacks are pending. — kommiBo 🤖
 - 06. 📏 UTF-8 brought a ruler to a popularity contest. — kommiBo 🤖
 - 07. 🎲 Serialization is deterministic; Friday enthusiasm is not. — kommiBo 🤖
+- 08. 🏁 The payload is compact. The joke has shipped. — kommiBo 🤖
 
 </details>
