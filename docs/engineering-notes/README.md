@@ -3,7 +3,7 @@
 
 Runnable serialization recipes extend the fictional dataset with concrete type, escaping, nesting, fidelity and measurement cases. They leave application code and generated artifacts unchanged.
 
-Source baseline: [`d3771e8611af6a126d94c87c9a18afecdc52a7a5`](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/tree/d3771e8611af6a126d94c87c9a18afecdc52a7a5). Each note links the owning implementation. Expected browser behavior is source-derived unless an execution receipt explicitly says otherwise.
+Source baseline: [`d3771e8611af6a126d94c87c9a18afecdc52a7a5`](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/tree/d3771e8611af6a126d94c87c9a18afecdc52a7a5). Each note links the owning implementation. Examples assert their own outcomes; baseline implementation descriptions are source-derived. A local assertion pass is scoped to that recipe and the installed package version.
 
 ## Reading paths
 
