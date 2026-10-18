@@ -136,6 +136,12 @@ MIT
 
 Changes are scoped, validated, and reviewed through the AEKR engineering workflow. Contributions should use a pull request and must keep `npm test` passing; generated output changes must be intentional and reviewed with their source change. The PR author and reviewer are distinct technical actors under one HOC authority; this separation is an operational control, not an independent audit.
 
+<!-- (kommiBo) Source-backed documentation navigation. -->
+## Engineering recipes
+
+See the [engineering notes](docs/engineering-notes/README.md) for reproducible examples, source references and validation limits.
+
+
 ---
 
 Built with the **[AI Engineering Knowledge Racking (AEKR)](https://aekr.io)** workflow.
