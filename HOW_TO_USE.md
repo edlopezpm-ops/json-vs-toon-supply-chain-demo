@@ -6,6 +6,16 @@ Use this repository as a small serialization experiment, not as a production arc
 
 Requirements: Node.js 20 or newer and npm.
 
+<!-- (kommiBo) Both generation and validation overwrite the two fixed output paths. -->
+Use a clean working copy for the commands below. `npm run demo` overwrites both fixed
+`output/warehouse-orders.*` artifacts, and `npm test` runs that same generation before
+checking Git differences. Save any uncommitted experiments outside those paths first;
+the generator does not ask before replacing them.
+
+The script uses its embedded fictional fixture, not a command-line input file. Substituting
+another dataset requires a deliberate source change and review of the resulting outputs.
+The [use boundaries](TERMS.md) apply to any decision to rely on the comparison.
+
 ```bash
 git clone https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo.git
 cd json-vs-toon-supply-chain-demo
