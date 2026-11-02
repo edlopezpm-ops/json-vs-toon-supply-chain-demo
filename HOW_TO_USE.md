@@ -9,9 +9,12 @@ Requirements: Node.js 20 or newer and npm.
 ```bash
 git clone https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo.git
 cd json-vs-toon-supply-chain-demo
-npm install
+npm ci
 npm run demo
 ```
+
+<!-- (kommiBo) Installation and generation have separate data boundaries. -->
+`npm ci` uses the committed lockfile and contacts the package registry. The demo itself invokes no model service. Both outputs retain the source values; TOON does not anonymize them. See the [data-handling guide](docs/data-handling.md) before substituting private data.
 
 The script writes two representations of the same fictional warehouse dataset:
 
