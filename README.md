@@ -142,6 +142,19 @@ Changes are scoped, validated, and reviewed through the AEKR engineering workflo
 See the [engineering notes](docs/engineering-notes/README.md) for reproducible examples, source references and validation limits.
 
 
+<!-- (kommiBo) Project-specific behavior, privacy and permission boundaries. -->
+## Privacy, use and permissions
+
+The generator writes two local files and invokes no model service. JSON and TOON
+contain the same source values; serialization does not anonymize them. See the
+data-handling guide before replacing the fictional fixture or publishing new outputs.
+
+- [Privacy notice](PRIVACY.md): project processing, hosting and requests.
+- [Use and service boundaries](TERMS.md): intended use and license precedence.
+- [Licensing inventory](docs/licensing.md): project, dependency and AEKR provenance scopes.
+- [Data handling](docs/data-handling.md): local artifacts and publication checks.
+- [Security reporting](SECURITY.md): private reports and support limits.
+
 ---
 
 Built with the **[AI Engineering Knowledge Racking (AEKR)](https://aekr.io)** workflow.
