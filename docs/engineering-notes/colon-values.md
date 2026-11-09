@@ -29,6 +29,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-Encoding does not validate timestamps, time zones, dock identifiers or business meaning. Use an application schema when such validation is required.
+Encoding does not validate timestamps, time zones, dock identifiers or business meaning. Use an application schema when this validation is needed.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.

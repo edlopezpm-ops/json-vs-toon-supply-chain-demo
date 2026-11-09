@@ -30,6 +30,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-Empty, missing and null are different states. The serializer does not choose business defaults for an empty wave.
+Empty, missing and null are distinct states. The serializer does not select business defaults for an empty wave.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.

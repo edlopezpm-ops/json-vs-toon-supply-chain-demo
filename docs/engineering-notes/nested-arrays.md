@@ -29,6 +29,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-Nested containers may use a different layout from the baseline uniform primitive table. Inspect actual output rather than extrapolating baseline percentages.
+Nested containers may use a different layout from the baseline uniform primitive table. Examine actual output instead of extrapolating baseline percentages.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
