@@ -29,6 +29,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-The baseline records share fields. Nonuniform data must be measured separately and must not be coerced into a table by inventing missing values.
+The baseline records share fields. Nonuniform data must be measured separately and must not be forced into a table by fabricating missing values.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
