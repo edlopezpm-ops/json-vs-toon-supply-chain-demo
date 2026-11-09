@@ -33,6 +33,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-This adds a local round-trip experiment; the existing npm test only regenerates and checks Git differences. Neither one proves an LLM, gateway, live warehouse integration or human acceptance.
+This provides a local round-trip experiment; the existing npm test only regenerates and checks Git differences. Neither check proves an LLM, gateway, live warehouse integration or human acceptance.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.

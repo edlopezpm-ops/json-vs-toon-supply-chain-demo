@@ -29,6 +29,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-This exercises a shape absent from the flat outbound order rows. Correct conversion does not establish a production shipment contract or size advantage.
+This tests a shape missing from the flat outbound order rows. Correct conversion does not establish a production shipment contract or size benefit.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.

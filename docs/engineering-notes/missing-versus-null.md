@@ -31,6 +31,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-This recipe uses JSON-compatible inputs and does not promise undefined handling. An adapter must define missing/null meaning before converting application records.
+This recipe uses JSON-compatible inputs and does not guarantee undefined handling. An adapter must specify missing/null meaning before converting application records.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
