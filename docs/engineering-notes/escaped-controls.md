@@ -30,6 +30,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-The terminal displays escape sequences in encoded text. Do not replace them manually or treat line-oriented display as a CSV parser.
+The terminal shows escape sequences in encoded text. Do not substitute them manually or treat line-oriented display as a CSV parser.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
