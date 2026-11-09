@@ -29,6 +29,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-Do not parse a TOON row with `split(",")`. The baseline destinations also contain commas, and their quoting belongs to the serializer.
+Do not parse a TOON row with `split(",")`. The baseline destinations also contain commas, and the serializer handles their quoting.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
