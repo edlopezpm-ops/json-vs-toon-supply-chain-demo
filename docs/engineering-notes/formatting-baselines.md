@@ -31,6 +31,6 @@ The existing [generator](https://github.com/edlopezpm-ops/json-vs-toon-supply-ch
 
 ## Limit
 
-The repository baseline compares two-space JSON against default TOON. Changing JSON formatting changes the denominator; these measurements do not establish token, latency or cost outcomes.
+The repository baseline compares two-space JSON against default TOON. Adjusting JSON formatting changes the denominator; these measurements do not demonstrate token, latency or cost outcomes.
 
 An assertion pass proves this exact local example at the installed version. It does not establish model-specific token savings or a production conversion contract.
