@@ -9,7 +9,7 @@ The root LICENSE grants MIT permissions subject to its notice conditions. These 
 | Component | Evidence and licensing boundary |
 |---|---|
 | Project code and associated documentation | Root `LICENSE` and `package.json` declare MIT. Preserve the copyright and permission notice in copies or substantial portions. |
-| `@toon-format/toon` | Manifest and lockfile pin `4.1.1`. Its installed package metadata and LICENSE were inspected: MIT, copyright 2025-PRESENT Johann Schopplich. Preserve that dependency notice when distributing it. The lockfile's integrity hash is not a license grant. |
+| `@toon-format/toon` | Manifest and lockfile pin `4.1.1`. Its installed package metadata and LICENSE declare MIT, copyright 2025-PRESENT Johann Schopplich. The [bundled verbatim notice](../THIRD_PARTY_NOTICES.md) makes that notice available without inspecting an installed environment. Preserve it when distributing the dependency. The lockfile's integrity hash is not a license grant. |
 | Illustrations in `assets/` | Keep existing provenance; do not infer a separate trademark or endorsement grant from a format illustration. |
 
 ## AEKR provenance has a bounded scope
@@ -31,9 +31,9 @@ The linked commits identify the material being described; this inventory is not 
 
 | Date | Source change | Effect on permissions |
 |---|---|---|
-| 2026-08-05 | [Root MIT license added](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/commit/7d6bb1df2457a251ab966ba2d849f9c2714a5825) | The root license grants MIT permissions with its copyright and notice conditions. |
+| 2026-08-05 | [Root MIT license added](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/commit/a9350881d143c37db575e0ec112c52e2b8d4fd6c) | The root license grants MIT permissions with its copyright and notice conditions. |
 | 2026-11-01 | [Licensing inventory added](https://github.com/edlopezpm-ops/json-vs-toon-supply-chain-demo/commit/37d4027d8d7ca4eb96dd20a6c0cb1d6e5eb71121) | Distinguished the project MIT grant, dependency notice and AEKR provenance; did not replace the root license. |
-| 2026-11-12 | This inventory update | Adds reuse guidance and traceable history; preserves the existing permissions. |
+| 2026-11-12 | Inventory and dependency notice updates | Added reuse guidance and a [verbatim dependency notice](../THIRD_PARTY_NOTICES.md); corrected the first-license reference using complete history. The root MIT license and package metadata remain unchanged. |
 
 ## Which permission applies to a proposed reuse?
 
