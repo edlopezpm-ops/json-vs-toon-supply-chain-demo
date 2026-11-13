@@ -130,7 +130,10 @@ json-vs-toon-supply-chain-demo/
 
 ## License
 
-MIT
+<!-- (kommiBo) Preserve the project MIT grant and expose the pinned dependency notice. -->
+[MIT](LICENSE). The existing project grant remains unchanged. See
+[Third-party notices](THIRD_PARTY_NOTICES.md) for the verbatim MIT notice shipped
+with the pinned `@toon-format/toon` dependency.
 
 ## Governance
 
