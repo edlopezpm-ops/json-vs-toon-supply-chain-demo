@@ -134,6 +134,9 @@ MIT
 
 ## Governance
 
+<!-- (kommiBo) Reproducible contribution guidance and permission boundaries. -->
+See [Contributing](CONTRIBUTING.md) for project-specific checks, useful bug reports and PR expectations.
+
 Changes are scoped, validated, and reviewed through the AEKR engineering workflow. Contributions should use a pull request and must keep `npm test` passing; generated output changes must be intentional and reviewed with their source change. The PR author and reviewer are distinct technical actors under one HOC authority; this separation is an operational control, not an independent audit.
 
 <!-- (kommiBo) Source-backed documentation navigation. -->
